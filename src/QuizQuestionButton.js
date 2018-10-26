@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 
-class QuizQustionButton extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { }
-    }
+class QuizQuestionButton extends Component {
     render() { 
         return ( 
             <li><button>{this.props.button_text}</button></li>
@@ -12,4 +8,4 @@ class QuizQustionButton extends Component {
     }
 }
  
-export default QuizQustionButton;
+export default QuizQuestionButton;
